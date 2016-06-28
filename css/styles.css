@@ -10,8 +10,12 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-p, h4, ol {
-  display: none;
+/*p, h4, ol {
+  visibility: hidden;
+}*/
+
+.wild-ass .popup-wild-ass, .ocelot .popup-ocelot, .sea-lion .popup-sea-lion, .giant-panda .popup-giant-panda, .tiger .popup-tiger, .emperor-penguin .popup-penguin  {
+  visibility: hidden;
 }
 
 .masthead {
@@ -34,107 +38,206 @@ p, h4, ol {
   border-radius: 5px;
 }
 
+.animal-big {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .wild-ass {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
   top: 400px;
   left: 1000px;
-  text-align: center;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
-.wild-ass:hover p, .wild-ass:hover h4 {
+/*.wild-ass:hover p, .wild-ass:hover h4 {
   display: block;
+}*/
+
+.wild-ass:hover .popup-wild-ass {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
 .ocelot {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
   top: 510px;
   left: 500px;
-  text-align: center;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-.ocelot:hover p, .ocelot:hover h4 {
-  display: block;
+.ocelot:hover .popup-ocelot {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
+/*.ocelot:hover p, .ocelot:hover h4 {
+  display: block;
+}*/
+
 .sea-lion {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  max-height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
   top: 75px;
   left: 220px;
-  text-align: center;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  /*z-index: 14;*/
 }
 
-.sea-lion:hover p, .sea-lion:hover h4 {
-  display: block;
+.sea-lion:hover .popup-sea-lion {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
+
+/*.sea-lion:hover p, .sea-lion:hover h4 {
+  display: block;
+}*/
 
 .giant-panda {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
   top: 110px;
   left: 1320px;
-  text-align: center;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  /*z-index: 12;*/
 }
 
-.giant-panda:hover p, .giant-panda:hover h4 {
-  display: block;
+.giant-panda:hover .popup-giant-panda {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
+/*.giant-panda:hover p, .giant-panda:hover h4 {
+  display: block;
+}*/
 
 .tiger {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
   top: 190px;
   left: 1150px;
-  text-align: center;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-.tiger:hover p, .tiger:hover h4 {
-  display: block;
+.tiger:hover .popup-tiger {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
+/*.tiger:hover p, .tiger:hover h4 {
+  display: block;
+}*/
 
 .emperor-penguin {
-  width: 140px;
-  padding: 10px;
+  width: 120px;
+  height: 120px;
+  /*padding: 10px;
   background-color: rgba(178, 34, 34, 0.75);
   color: white;
-  border-radius: 15px;
+  border-radius: 15px;*/
   position: absolute;
-  top: 700px;
-  left: 1000px;
-  text-align: center;
+  top: 750px;
+  left: 800px;
+  /*text-align: center;*/
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-.emperor-penguin:hover p, .emperor-penguin:hover h4 {
-  display: block;
+.emperor-penguin:hover .popup-penguin {
+  visibility: visible;
+  width: 440px;
+  padding: 20px;
+  background-color: rgba(30, 144, 255, 0.75);
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
+/*.emperor-penguin:hover p, .emperor-penguin:hover h4 {
+  display: block;
+}*/
 
 .gray-wolf {
   width: 140px;
@@ -147,6 +250,7 @@ p, h4, ol {
   left: 420px;
   text-align: center;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 15;
 }
 
 .gray-wolf:hover p, .gray-wolf:hover h4 {
@@ -164,6 +268,7 @@ p, h4, ol {
   left: 900px;
   text-align: center;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 13;
 }
 
 .european-bison:hover p, .european-bison:hover h4 {
@@ -198,9 +303,17 @@ p, h4, ol {
   left: 480px;
   text-align: center;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  z-index: 11;
 }
 
 .manatee:hover p, .manatee:hover h4, .manatee:hover ol {
+  display: block;
+}
+
+.endangered::after {
+  content: "THREATENED!";
+  letter-spacing: 2px;
+  font-family: monospace;
   display: block;
 }
 
