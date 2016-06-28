@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p, h4, ol {
+  display: none;
+}
+
+.masthead {
+  margin: 25px auto 25px auto;
+  width: 1200px;
+  height: 200px;
+  background: linear-gradient(to right, rgba(178, 34, 34, 1), red, rgba(178, 34, 34, 1));
+  color: white;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.map {
+  position: relative;
+}
+
+.animal {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.wild-ass {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 400px;
+  left: 1000px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.wild-ass:hover p, .wild-ass:hover h4 {
+  display: block;
+}
+
+.ocelot {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 510px;
+  left: 500px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ocelot:hover p, .ocelot:hover h4 {
+  display: block;
+}
+
+.sea-lion {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 75px;
+  left: 220px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sea-lion:hover p, .sea-lion:hover h4 {
+  display: block;
+}
+
+.giant-panda {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 110px;
+  left: 1320px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.giant-panda:hover p, .giant-panda:hover h4 {
+  display: block;
+}
+
+.tiger {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 190px;
+  left: 1150px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tiger:hover p, .tiger:hover h4 {
+  display: block;
+}
+
+.emperor-penguin {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 700px;
+  left: 1000px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.emperor-penguin:hover p, .emperor-penguin:hover h4 {
+  display: block;
+}
+
+.gray-wolf {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 25px;
+  left: 420px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gray-wolf:hover p, .gray-wolf:hover h4 {
+  display: block;
+}
+
+.european-bison {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 75px;
+  left: 900px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.european-bison:hover p, .european-bison:hover h4 {
+  display: block;
+}
+
+.chimpanzee {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 325px;
+  left: 840px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.chimpanzee:hover p, .chimpanzee:hover h4 {
+  display: block;
+}
+
+.manatee {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 250px;
+  left: 480px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.manatee:hover p, .manatee:hover h4, .manatee:hover ol {
+  display: block;
+}
+
+.potoroo {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 575px;
+  left: 1400px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.potoroo:hover p, .potoroo:hover h4 {
+  display: block;
+}
+
+.blue-whale {
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(178, 34, 34, 0.75);
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 420px;
+  left: 180px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.blue-whale:hover p, .blue-whale:hover h4 {
+  display: block;
+}
